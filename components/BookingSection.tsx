@@ -34,7 +34,7 @@ export default function BookingSection() {
           {/* Right: embedded booking calendar */}
           <div className="min-h-[640px] overflow-hidden rounded-3xl border border-charcoal/10 bg-white shadow-xl shadow-charcoal/5">
             <iframe
-              src="https://my.vexaapp.net/book-call-page"
+              src="https://lc.vexaapp.net/bookings/demo-call"
               title="Book a call with Vexaapp"
               className="h-full min-h-[640px] w-full"
               loading="lazy"
