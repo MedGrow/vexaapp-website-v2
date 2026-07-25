@@ -10,12 +10,16 @@ const links = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-charcoal/10 bg-ivory/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-content items-center justify-between px-6 py-4 lg:px-10">
-        <a href="#top" className="flex items-center gap-2.5">
-          <Image src="/images/Vexaapp_New_Logo.png" alt="Vexaapp" width={34} height={34} priority />
-          <span className="font-display text-xl font-semibold tracking-tight text-charcoal">
-            Vexaapp
-          </span>
+      <div className="mx-auto flex max-w-content items-center justify-between px-6 py-3 lg:px-10">
+        <a href="#top" className="flex items-center">
+          <Image
+            src="/images/vexaapp-logo-full.png"
+            alt="Vexaapp"
+            width={1971}
+            height={529}
+            priority
+            className="h-9 w-auto"
+          />
         </a>
 
         <nav className="hidden items-center gap-9 md:flex">

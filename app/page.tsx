@@ -7,17 +7,21 @@ import BuiltFor from '@/components/BuiltFor';
 import BookingSection from '@/components/BookingSection';
 import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
+import ScrollMascot from '@/components/ScrollMascot';
 
 export default function Home() {
   return (
     <main>
       <Header />
       <Hero />
-      <RoiStrip />
-      <FeatureShowcase />
-      <HowItWorks />
-      <BuiltFor />
-      <BookingSection />
+      <div className="relative">
+        <ScrollMascot />
+        <RoiStrip />
+        <FeatureShowcase />
+        <HowItWorks />
+        <BuiltFor />
+        <BookingSection />
+      </div>
       <Faq />
       <Footer />
     </main>
