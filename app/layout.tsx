@@ -28,6 +28,21 @@ export const metadata: Metadata = {
   title: 'Vexaapp — The Patient Retention App for Aesthetic & Wellness Clinics',
   description:
     'Vexaapp turns your one-time patients into recurring revenue with a white-labeled app: memberships, rewards, financing, and automated win-back offers — live in 24 hours.',
+  openGraph: {
+    title: 'Vexaapp — The Patient Retention App for Aesthetic & Wellness Clinics',
+    description:
+      'Vexaapp turns your one-time patients into recurring revenue with a white-labeled app: memberships, rewards, financing, and automated win-back offers — live in 24 hours.',
+    url: 'https://vexaapp.net',
+    type: 'website',
+    images: [
+      {
+        url: 'https://vexaapp.net/images/Vexaapp_New_Logo.png',
+        width: 200,
+        height: 200,
+        alt: 'Vexaapp Logo',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
