@@ -12,7 +12,7 @@ export default function Hero() {
         style={{ background: 'radial-gradient(circle, #F7F4EF 0%, transparent 70%)' }}
       />
 
-      <div className="relative mx-auto grid max-w-content items-center gap-14 px-6 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:px-10 lg:py-24">
+      <div className="relative mx-auto grid max-w-content items-center gap-14 px-4 py-11 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:px-7 lg:py-17">
         <div className="animate-fadeUp">
           <p className="eyebrow mb-6 text-gold-light">White-label patient app · Built for aesthetics &amp; wellness</p>
           <h1 className="font-display text-4xl leading-[1.08] text-ivory sm:text-5xl lg:text-[3.4rem]">
