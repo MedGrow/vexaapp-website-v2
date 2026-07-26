@@ -19,7 +19,7 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section id="how-it-works" className="bg-ivory">
-      <div className="mx-auto max-w-content px-6 py-24 lg:px-10 lg:py-32">
+      <div className="mx-auto max-w-content px-4 py-17 lg:px-7 lg:py-22">
         <p className="eyebrow text-burgundy">The setup</p>
         <h2 className="mt-4 max-w-lg font-display text-3xl text-charcoal sm:text-4xl">
           From your logo to a live app, in three steps.
