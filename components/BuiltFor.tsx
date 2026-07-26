@@ -10,7 +10,7 @@ const verticals = [
 export default function BuiltFor() {
   return (
     <section id="built-for" className="bg-burgundy-dark">
-      <div className="mx-auto max-w-content px-6 py-24 lg:px-10 lg:py-28">
+      <div className="mx-auto max-w-content px-4 py-17 lg:px-7 lg:py-20">
         <div className="grid gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-20">
           <div>
             <p className="eyebrow text-gold-light">Not a generic membership tool</p>
