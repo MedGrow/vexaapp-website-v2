@@ -1,7 +1,7 @@
 export default function BookingSection() {
   return (
     <section id="book" className="bg-ivory">
-      <div className="mx-auto max-w-content px-6 py-24 lg:px-10 lg:py-28">
+      <div className="mx-auto max-w-content px-4 py-17 lg:px-7 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-stretch lg:gap-16">
           {/* Left: copy + CTA */}
           <div className="flex flex-col justify-center">
