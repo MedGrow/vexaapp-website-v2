@@ -95,7 +95,7 @@ export default function FeatureShowcase() {
 
   return (
     <section id="features" className="bg-burgundy-dark">
-      <div className="mx-auto max-w-content px-6 py-24 lg:px-10 lg:py-28">
+      <div className="mx-auto max-w-content px-4 py-17 lg:px-7 lg:py-20">
         <div className="mb-14 text-center">
           <p className="eyebrow text-gold-light">What patients actually open</p>
           <h2 className="mt-4 font-display text-3xl text-ivory sm:text-4xl">
